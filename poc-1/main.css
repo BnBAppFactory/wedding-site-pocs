@@ -143,13 +143,6 @@ body {
   color: #000;
 }
 
-.map {
-  background: #ccc;
-  width: 400px;
-  height: 400px;
-  margin: 0 auto;
-}
-
 .section-divider {
   width: 90%;
   height: 1px;
@@ -185,4 +178,11 @@ body {
   background: transparent;
   border: 1px dashed #fff;
   transform: rotate(45deg);
+}
+
+.portrait-container {
+  width: 400px;
+  height: 600px;
+  margin: 10px auto;
+  background: #ccc;
 }

@@ -41,17 +41,27 @@ body {
   font-size: 7em;
   font-family: 'Great Vibes';
   color: #fff;
+
+  display: flex;
+  align-items: center;
 }
 
-.header__title_text .b {
+.header__title_text .b:first-of-type {
   z-index: 100;
+  order: 1;
+}
+
+.header__title_text .b:last-of-type {
+  z-index: 100;
+  order: 3;
 }
 
 .header__title_text .ampersand {
   z-index: 1;
+  order: 2;
 
-  margin-left: -40px;
-  margin-right: -40px;
+  margin-left: -10px;
+  margin-right: 10px;
 
   font-size: 2em;
   color: #630017;

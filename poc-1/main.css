@@ -43,6 +43,27 @@ body {
   color: #fff;
 }
 
+.header__title_text .b {
+  z-index: 100;
+}
+
+.header__title_text .ampersand {
+  z-index: 1;
+
+  margin-left: -40px;
+  margin-right: -40px;
+
+  font-size: 2em;
+  color: #630017;
+
+  text-shadow: 2px 0px #fff,
+               2px 2px #fff,
+               0px 2px #fff,
+               -2px 0px #fff,
+               -2px -2px #fff,
+               0px -2px #fff;
+}
+
 .header__nav {
   position: absolute;
   width: 100%;
